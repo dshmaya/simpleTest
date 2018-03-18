@@ -42,28 +42,7 @@ public class SimpleTest {
        Assert.assertEquals(1, 2);
    }
 	 
-   @Test
-   public void alwaysFail7()
-   {
-       Assert.assertEquals(1, 2);
-   }
-@Test
-   public void alwaysFail8()
-   {
-       Assert.assertEquals(1, 2);
-   }
- 
-   @Test
-   public void alwaysFail9()
-   {
-       Assert.assertEquals(1, 2);
-   }
-@Test
-   public void alwaysFail10()
-   {
-       Assert.assertEquals(1, 2);
-   }
- 
+
 
 //     @Test
 //     public void alwaysFail1()
