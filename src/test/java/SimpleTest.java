@@ -12,7 +12,7 @@ public class SimpleTest {
    @Test  
    public void alwaysPass1()
    {
-       Assert.assertEquals(1, 2);
+       Assert.assertEquals("- Failed HA POR {LogInfo='Execution will be continued with the next TestCase, because the error situation could not be recovered. Execution will be continued with the next TestCase, because the error situation could not be recovered.'} + Passed TBox Start Program | Fermer tous les fenetres de IE {LogInfo='Started 'taskkill' with arguments '/f /im iexplore.exe''} + Passed Path {LogInfo='Process stopped after '0' minutes.'} + Passed OpenUrl | Ouvrir l'URL - Failed Portail BCV {LogInfo='No matching tab was found.'} + Passed TBox Start Program | Fermer tous les fenetres de IE {LogInfo='Started 'taskkill' with arguments '/f /im iexplore.exe''} + Passed Path {LogInfo='Process stopped after '0' minutes.'} + Passed OpenUrl | Ouvrir l'URL - Failed Portail BCV {LogInfo='No matching tab was found.'} + Passed TBox Start Program | Fermer tous les fenetres de IE {LogInfo='Started 'taskkill' with arguments '/f /im iexplore.exe''} + Passed Path {LogInfo='Process stopped after '0' minutes.'} + Passed OpenUrl | Ouvrir l'URL - Failed Portail BCV {LogInfo='No matching tab was found.'}",1, 2);
    }
 
    @Test
