@@ -98,6 +98,16 @@ public class SimpleTest {
         Assert.assertEquals(smallerThanFiftee, true);	
     }
 	
+	 @Test
+    @Ignore
+    public void ignored1a()
+    {
+        Random random = new Random();
+        int randomNumber = random.nextInt(99);
+        boolean smallerThanFiftee =  randomNumber < 50 ? true : false;
+        Assert.assertEquals(smallerThanFiftee, true);	
+    }
+	
     @Test
     @Ignore
     public void ignored2()
